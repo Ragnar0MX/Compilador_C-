@@ -1,0 +1,11 @@
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.exe
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.deps.json
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.runtimeconfig.json
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.runtimeconfig.dev.json
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.dll
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\bin\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.pdb
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\obj\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.csprojAssemblyReference.cache
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\obj\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.AssemblyInfoInputs.cache
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\obj\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.AssemblyInfo.cs
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\obj\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.dll
+C:\Users\Moises Rafael\source\repos\proyecto traductor de lenguaje 2\proyecto traductor de lenguaje 2\obj\Debug\netcoreapp3.0\proyecto traductor de lenguaje 2.pdb
