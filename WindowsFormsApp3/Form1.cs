@@ -23,6 +23,7 @@ namespace WindowsFormsApp3
         {
             Lexico querer = new Lexico(textBox1.Text);
             List<string> elemento = querer.leerCadena();
+            
             for (int i = 0; i < elemento.Count(); i++)
             {
                 string[] palabra = elemento[i].Split('#');
@@ -63,6 +64,7 @@ namespace WindowsFormsApp3
         {
             if(e.KeyCode== Keys.Enter)
             {
+                dataGridView1.Rows.Clear();
                 analizar_cadena();
             }
         }
