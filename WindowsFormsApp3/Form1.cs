@@ -23,6 +23,7 @@ namespace WindowsFormsApp3
         {
             Lexico querer = new Lexico(textBox1.Text);
             List<string> elemento = querer.leerCadena();
+            
             for (int i = 0; i < elemento.Count(); i++)
             {
                 string[] palabra = elemento[i].Split('#');
@@ -63,27 +64,11 @@ namespace WindowsFormsApp3
         {
             if(e.KeyCode== Keys.Enter)
             {
+                dataGridView1.Rows.Clear();
                 analizar_cadena();
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            analizador_lr1 ejemplo = new analizador_lr1();
-            ejemplo.ejemplo_1();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            analizador_lr1 ejemplo = new analizador_lr1();
-            ejemplo.ejemplo_2(textBox1.Text);
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            analizador_lr1 ejemplo = new analizador_lr1();
-            ejemplo.ejemplo_3();
-        }
+        
     }
 }

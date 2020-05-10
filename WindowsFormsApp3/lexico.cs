@@ -92,8 +92,24 @@ namespace WindowsFormsApp3
             for (i = 0; i < elemento.Count(); i++)
             {
                 p = elemento[i];
-                aux = p + "#0#identificador";
-                elemento[i] = aux;
+                char cadena;
+                bool letraCadena = true;
+                for(int j = 0; j < p.Length; j++)
+                {
+                    cadena = p[j];
+                    if (!char.IsLetterOrDigit(cadena))
+                        letraCadena = false;
+                }
+                if (letraCadena){
+                    aux = p + "#0#identificador";
+                    elemento[i] = aux;
+                }
+                else {
+                    aux = p + "#-1#error caracter no valido";
+                    elemento[i] = aux;
+                }
+                
+                        
 
                 if (p == "if")
                 {
@@ -117,7 +133,7 @@ namespace WindowsFormsApp3
                 }
                 else if (p == "$")
                 {
-                    p = p + "#1#$";
+                    p = p + "#19#$";
                     elemento[i] = p;
                 }
                 else if (p == "=")
@@ -152,7 +168,7 @@ namespace WindowsFormsApp3
                 }
                 else if (p == ";")
                 {
-                    p = p + "#12#if";
+                    p = p + "#12#;";
                     elemento[i] = p;
                 }
                 else if (opigualdad.Contains(p))
@@ -211,21 +227,8 @@ namespace WindowsFormsApp3
                 }
                 if (result)
                 {
-                    elemento[i] = p + "#19#entero";
+                    elemento[i] = p + "#1#entero";
                 }
-
-
-
-
-
-
-
-
-
-
-
-
-
             }
         }
     }
