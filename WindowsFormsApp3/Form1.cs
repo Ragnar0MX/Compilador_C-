@@ -12,6 +12,10 @@ namespace WindowsFormsApp3
         List<string> operadores = new List<string>();
         List<string> coincidencias = new List<string>();
         lectura_archivos p = new lectura_archivos();
+        int[] idRegla;
+        int[] lonRegla;
+        string[] Noterminal;
+        int[,] tabla;
         public Form1()
         {
             InitializeComponent();
@@ -96,6 +100,26 @@ namespace WindowsFormsApp3
         {
             analizador_lr1 ejercicio_2 = new analizador_lr1();
             ejercicio_2.ejercicio_2(textBox1.Text);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog abrir = new OpenFileDialog();
+            abrir.Filter = "Tabla LR (*.lr)|*.lr";
+
+            if (abrir.ShowDialog() == DialogResult.OK)
+            {
+                string direccion = abrir.FileName;
+                Lecturalr lecturalr = new Lecturalr();
+                lecturalr.leerArchivo(direccion);
+                idRegla = lecturalr.devolderId();
+                lonRegla = lecturalr.devolverLon();
+                Noterminal = lecturalr.debolverNoTerminal();
+                tabla = lecturalr.devolverTabla();
+            }
+            Console.WriteLine(Noterminal[0]);
+            string info = "No. Reglas=" + idRegla.Count()+"\nFilas:"+tabla.GetLength(0)+"\nColumnas:"+tabla.GetLength(1);
+            MessageBox.Show(info);
         }
     }
 }

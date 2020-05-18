@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="analizador_lr1.cs" />
+    <Compile Include="Lecturalr.cs" />
     <Compile Include="Lexico.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
